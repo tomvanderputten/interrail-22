@@ -42,7 +42,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
 nav ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-right: 0.5em;
     line-height: 3.75em;
     font-size: larger;
