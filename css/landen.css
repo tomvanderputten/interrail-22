@@ -1,0 +1,19 @@
+.landenlijst{
+    padding-left: 1.5em;
+    list-style: circle;
+}
+
+h2{
+    padding: 1.5em;
+    font-family: gilroybold;
+
+}
+
+p{
+    padding: 1.5em;
+}
+
+@font-face {
+    font-family: gilroybold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: #E1FAF9;
+    font-family: galey;
+}
+
+
+
+h1{
+    background-color: #1F0318;
+    padding: 0.3em;
+    color: #F7C548;
+    font-family: galey;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+nav{
+    background: #335C81;
+    height: 4em;
+    width: 100%;
+
+}
+
+.logo{
+color: white;
+font-size: 1em;
+line-height: 3.8em;
+padding: 1em;
+font-weight: bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav ul{
+    float: right;
+    margin-right: 0.5em;
+    line-height: 3.75em;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 1em ;
+    margin: 0 5px;
+    
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav a:hover{
+    color: #F7C548;
+}
+
+@font-face {
+    font-family: sovana ;
+    src: url(fonts/sovana-regular.ttf);
+}
+@font-face {
+    font-family: galey;
+    src: url(fonts/Prestigetype\ Studio\ -\ Galey\ Semi\ Bold.ttf);
+}
+
+@font-face {
+    font-family: galey2;
+    src: url(fonts/Prestigetype\ Studio\ -\ Galey\ Rounded\ Extra\ Light.ttf);
+}
+
+@font-face {
+    font-family: gilroybold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}
