@@ -3,15 +3,15 @@ h2,h3{
     font-family: gilroybold;
 }
 
-p{
-    padding-left: 1.5em;
-    padding-bottom: 1em ;
-    padding-right: 15em;
-    margin: 0;
+p{ 
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
 }
 
+
 ol{
-    padding-left: 1.5em;
+    padding-left: 2em;
     padding-bottom: 1em;
 }
 
@@ -21,10 +21,9 @@ h3{
 
 .rio{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0.5em;
-    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 @font-face {

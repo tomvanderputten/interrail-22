@@ -1,5 +1,5 @@
 .landenlijst{
-    padding-left: 1.5em;
+    padding-left: 2em;
     list-style: circle;
 }
 
@@ -9,8 +9,10 @@ h2{
 
 }
 
-p{
-    padding: 1.5em;
+p{ 
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
 }
 
 @font-face {

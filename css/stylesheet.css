@@ -6,11 +6,18 @@ body{
 
 
 h1{
-    background-color: #1F0318;
-    padding: 0.3em;
-    color: #F7C548;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/sunsethome1.jpg);
+    padding: 3em;
+    margin: 0;
+    color: #ffffff;
     font-family: galey;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
+
 
 
 
@@ -18,42 +25,35 @@ h1{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    box-sizing: border-box;
     
 }
 
 
 nav{
     background: #335C81;
-    height: 4em;
+    height: auto;
     width: 100%;
 
 }
 
-/* .logo{
-color: white;
-font-size: 1em;
-line-height: 3.8em;
-padding: 1em;
-font-weight: bold;
-font-family:Verdana, Geneva, Tahoma, sans-serif
-} */
-
 nav ul{
     display: flex;
-    align-items: center;
     justify-content: space-around;
     margin: 0;
     line-height: 3.75em;
     font-size: larger;
-    
+    flex-direction: row;
+    text-align: center;
+
 }
 
-nav ul li{
+
+
+nav ul li {
     display: flex;
     align-items: center;
     line-height: 1em ;
-    margin: 1em;
+    margin: 0.5em 0;
     
 }
 
