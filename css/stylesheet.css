@@ -46,7 +46,6 @@ nav ul{
     margin: 0;
     font-size: larger;
     flex-direction: row;
-    text-align: center;
     list-style: none;
 
 }
@@ -61,7 +60,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    transform: scale(1.5); 
+    transform: scale(1.3); 
     color: #F7C548;
 }
 
@@ -72,18 +71,26 @@ nav ul li a:active {
 }
 
 h2{
+    display: flex;
+    justify-content: center;
     padding: 1.5em;
     font-family: gilroybold;
 }
 
 h3{
-    font-weight: bold;
-    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-family: gilroybold;
+    padding: 3em 0 0 0;
+
 }
 
 p{ 
-    padding-left: 2em;
-    padding-right: 2em;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: auto;
+    padding-right: auto;
     padding-bottom: 0.5em;
 }
 
@@ -149,12 +156,55 @@ ol{
     padding-bottom: 1em;
 }
 
-.rio{
+.riomaggiore{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto 2em auto;
+    max-width: 100%;
+    border-radius: 8px;
+    
 }
+
+.alpes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em auto 2em auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.sevilla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em auto 2em auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+@media (min-width: 769px) {
+    .riomaggiore{
+        max-width: 80%;
+    }
+    .alpes{
+        max-width: 80%;
+    }
+    .sevilla{
+        max-width: 80%;
+    }
+}
+
+
+
+
+.kopjetop3{
+    font-family: gilroybold;
+    
+}
+
+
 
 @font-face {
     font-family: sovana ;
