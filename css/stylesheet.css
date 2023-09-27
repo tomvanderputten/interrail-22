@@ -1,23 +1,28 @@
 body{
-    background-color: #E1FAF9;
+    background-color: #ffffff;
     font-family: galey;
 }
 
 
 
-h1{
-    background-image: url(../images/sunsethome1.jpg);
-    padding: 2em;
-    margin: 0;
+ h1{
+    display: flex;
+    justify-content: center;
+    padding: 5em 0 4em 0;
+    text-shadow: 3px 3px 6px  black;
     color: #ffffff;
     font-family: galey;
+} 
 
-    padding-top: 3em;
-    padding-bottom: 3em;
+.marseille{
+    background-image: url(../images/kroatiemeer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 95%;
+    width: 100vw;
+    height: 50vh;
 }
-
-
-
 
 *{
     padding: 0;
@@ -28,39 +33,127 @@ h1{
 
 
 nav{
-    background: #335C81;
-    height: auto;
+    background: transparent;
     width: 100%;
+    font-family: gilroybold;
 
 }
 
 nav ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 0;
-    line-height: 3.75em;
     font-size: larger;
     flex-direction: row;
     text-align: center;
+    list-style: none;
 
 }
 
 
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px black;
+    transition: transform 0.2s;
+    display: inline-block;
+}
 
-nav ul li {
+
+nav ul li a:hover {
+    transform: scale(1.5); 
+    color: #F7C548;
+}
+
+nav ul li a:active {
+    background-color: #F7C548;
+    border-radius: 8px;
+
+}
+
+h2{
+    padding: 1.5em;
+    font-family: gilroybold;
+}
+
+h3{
+    font-weight: bold;
+    padding: 1.5em;
+}
+
+p{ 
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+}
+
+.voorpagina{
     display: flex;
-    align-items: center;
-    line-height: 1em ;
-    margin: 0.5em 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
     
 }
 
-nav ul li a {
-    color: white;
+.landenpage{
+    background-image: url(../images/zwitserland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100vw;
+    height: 50vh;
 }
 
-nav a:hover{
-    color: #F7C548;
+.voetbalstadion{
+        background-image: url(../images/voetbalstadion1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 75%;
+        width: 100vw;
+        height: 50vh;
+    
+}
+
+.top3loc{
+    background-image: url(../images/riomaggiore3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50%;
+    width: 100vw;
+    height: 50vh;
+}
+
+.landenlijst{
+    padding-left: 2em;
+    list-style: circle;
+}
+
+.lijstje1{
+    padding-left: 2em;
+    list-style: circle;
+}
+
+.madrid{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+
+ol{
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.rio{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 @font-face {
