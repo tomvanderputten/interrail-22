@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: #eeedf7;
     font-family: galey;
 }
 
@@ -64,6 +64,7 @@ nav ul li a:hover {
     color: #F7C548;
 }
 
+
 nav ul li a:active {
     background-color: #F7C548;
     border-radius: 8px;
@@ -88,11 +89,7 @@ h3{
 }
 
 p{ 
-    text-align: center;
-    margin-left: 4em;
-    margin-right: 4em;
-    padding-left: auto;
-    padding-right: auto;
+    margin: 1em 4em 1em 4em;
     padding-bottom: 0.5em;
 }
 
@@ -100,7 +97,7 @@ p{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 1em;
     
 }
 
@@ -167,46 +164,26 @@ ol{
     border-radius: 8px;
 } */
 
-.riomaggiore{
+img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em auto 2em auto;
-    max-width: 100%;
-    border-radius: 8px;
-    
-}
-
-.alpes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5em auto 2em auto;
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-.sevilla{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5em auto 2em auto;
+    margin: 1em auto 2em auto;
     max-width: 100%;
     border-radius: 8px;
 }
 
 @media (min-width: 769px) {
-    .riomaggiore{
+    img{
         max-width: 80%;
     }
-    .alpes{
-        max-width: 80%;
-    }
-    .sevilla{
-        max-width: 80%;
-    }
+    
 }
 
+
+strong{
+    font-family: gilroybold;
+}
 
 
 
@@ -218,6 +195,23 @@ ol{
 .kopjevoetbal{
     font-family: gilroybold;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    margin: 1em 4em 1em 4em;
+    padding-bottom: 0.5em;
+    color: black;
+}
+
+ul.landenlijst li a:hover{
+    color: #ffb700;
+    border-bottom: 0.1em solid #ffb700;
+}
+
+
 
 
 @font-face {
