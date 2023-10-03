@@ -111,7 +111,7 @@ nav ul li a:hover {
 
 nav ul li a:active {
     background-color: #F7C548;
-    border-radius: 8px;
+    border-radius: 0.5em;
 
 }
 
@@ -174,7 +174,7 @@ img{
     align-items: center;
     margin: 1em auto 2em auto;
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 1em;
 }
 
 @media (min-width: 769px) {
@@ -215,6 +215,16 @@ ul.landenlijst li a:hover{
     border-bottom: 0.1em solid #ffb700;
 }
 
+video{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 1em;
+}
+
+.groepsfoto{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
