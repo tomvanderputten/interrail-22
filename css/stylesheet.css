@@ -123,13 +123,22 @@ h2{
     text-align: center;
 }
 
-h3{
+h3 {
     display: flex;
     justify-content: center;
     font-family: gilroybold;
     padding: 3em 0 0 0;
     text-align: center;
+    font-size: 1.3em
+}
 
+h4{
+    display: flex;
+    justify-content: center;
+    font-family: gilroybold;
+    padding: 3em 0 0 0;
+    text-align: center;
+    font-size: 1.1em;
 }
 
 p{ 
@@ -145,14 +154,14 @@ p{
     
 }
 
-.landenlijst{
-    padding-left: 2em;
-    list-style: circle;
-}
 
-.lijstje1{
-    padding-left: 2em;
+.lijstje1 .landenlijst{
+    display: flex;
     list-style: circle;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
 
 .madrid{
@@ -181,22 +190,18 @@ img{
     img{
         max-width: 80%;
     }
+    p{
+        margin-left: 15em;
+        margin-right: 15em;
+    }
+    .lijstje1, .landenlijst{
+        margin-left: 15em;
+        margin-right: 15em;
+    }
     
 }
-
 
 strong{
-    font-family: gilroybold;
-}
-
-
-
-.kopjetop3{
-    font-family: gilroybold;
-    
-}
-
-.kopjevoetbal{
     font-family: gilroybold;
 }
 
@@ -210,7 +215,7 @@ ul{
     color: black;
 }
 
-ul.landenlijst li a:hover{
+ul.landenlijst li a:hover, ul.lijstje1 li a:hover{
     color: #ffb700;
     border-bottom: 0.1em solid #ffb700;
 }
