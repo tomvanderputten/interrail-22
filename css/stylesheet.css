@@ -186,7 +186,7 @@ img{
     border-radius: 1em;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
     img{
         max-width: 80%;
     }
