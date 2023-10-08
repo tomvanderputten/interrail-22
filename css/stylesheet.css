@@ -118,7 +118,7 @@ nav ul li a:active {
 h2{
     display: flex;
     justify-content: center;
-    padding: 1.5em;
+    padding: 1em;
     font-family: gilroybold;
     text-align: center;
 }
@@ -229,6 +229,10 @@ video{
 .groepsfoto{
     display: flex;
     flex-wrap: wrap;
+}
+
+article{
+    margin-top: 4em;
 }
 
 
