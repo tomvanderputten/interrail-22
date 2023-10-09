@@ -144,7 +144,7 @@ h4{
     font-size: 1.1em;
 }
 
-p{ 
+p, .landenlijst, .lijstje1{ 
     margin: 1em 4em 1em 4em;
     padding-bottom: 0.5em;
 }
