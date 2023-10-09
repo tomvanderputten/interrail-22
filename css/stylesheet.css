@@ -3,30 +3,38 @@ body{
     font-family: galey;
 }
 
-
-
- h1{
+ h1 {
     text-align: center;
-    text-shadow: 3px 3px 6px  black;
+    text-shadow: 3px 3px 6px black;
     color: #ffffff;
-    font-family: galey;
+    font-family: gilroybold;
     margin: 0 auto;
-} 
+    animation: stuiteren 2s ease-in-out;
+}
 
-.marseille{
+@keyframes stuiteren {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-0.5em);
+    }
+}
+
+.homevoorkant{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    background-image: url(../images/kroatiemeer1.jpg);
+    background-image: url(../images/plitvice1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 95%;
+    background-position-y: 70%;
     width: 100vw;
     height: 50vh;
 }
 
-.landenpage{
+.landenvoorkant{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -39,7 +47,7 @@ body{
     height: 50vh;
 }
 
-.voetbalstadion{
+.voetbalwedstrijdenvoorkant{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -53,7 +61,7 @@ body{
     
 }
 
-.top3loc{
+.top3voorkant{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -70,7 +78,6 @@ body{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    
 }
 
 
@@ -80,7 +87,6 @@ nav{
     background: transparent;
     width: 100%;
     font-family: gilroybold;
-
 }
 
 nav ul{
@@ -92,7 +98,6 @@ nav ul{
     flex-direction: row;
     list-style: none;
     width: 100%;
-
 }
 
 
@@ -112,7 +117,6 @@ nav ul li a:hover {
 nav ul li a:active {
     background-color: #F7C548;
     border-radius: 0.5em;
-
 }
 
 h2{
@@ -232,26 +236,42 @@ video{
 }
 
 article{
-    margin-top: 4em;
+    margin-top: 3em;
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    color: rgb(45, 22, 255);
+    font-family: gilroybold;
+    transition: transform 0.2s;
+}
+
+footer a:hover{
+    color: rgb(255, 98, 0);
+    transform: scale(1.2);
+}
+
+.bronnenlijst{
+    color: white;
+    background-color: rgb(45, 22, 255);
+}
+
+.bronnen p{
+   margin: 0 0 0 10em;
+}
+
+.bronnen a:hover{
+    color: rgb(255, 98, 0);
 }
 
 
-
-@font-face {
-    font-family: sovana ;
-    src: url(fonts/sovana-regular.ttf);
-}
 @font-face {
     font-family: galey;
-    src: url(fonts/Prestigetype\ Studio\ -\ Galey\ Semi\ Bold.ttf);
-}
-
-@font-face {
-    font-family: galey2;
-    src: url(fonts/Prestigetype\ Studio\ -\ Galey\ Rounded\ Extra\ Light.ttf);
+    src: url(fonts/galeysemibold.ttf);
 }
 
 @font-face {
     font-family: gilroybold;
-    src: url(fonts/Gilroy-Bold.ttf);
+    src: url(fonts/gilroybold.ttf);
 }
