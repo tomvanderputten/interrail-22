@@ -211,12 +211,11 @@ article{
 footer a{
     color: rgb(65, 146, 228);
     font-family: gilroybold;
-    transition: transform 0.2s;
+    transition: color 0.2s;
 }
 
 footer a:hover{
     color: rgb(255, 98, 0);
-    transform: scale(1.2);
 }
 
 .bronnenlijst{
